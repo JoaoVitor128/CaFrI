@@ -32,3 +32,12 @@ img{
   max-width: 600px;
 }
 
+button{
+  background-color: #000;
+  border: 2px #fff solid;
+  padding: 10px 15px;
+  border-radius: 19px;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+}
