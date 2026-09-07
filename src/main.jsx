@@ -11,6 +11,7 @@ import Level03 from './Routes/Level03.jsx'
 import Level04 from './Routes/Level04.jsx'
 import Level05 from './Routes/Level05.jsx'
 import Level06 from './Routes/Level06.jsx'
+import Level07 from './Routes/Level07.jsx'
 
 import Final from './Routes/final.jsx'
 import ErrorPage from './Routes/ErrorPage.jsx'
@@ -47,8 +48,12 @@ const router = createBrowserRouter([
       },
       {
         path: "/alienista",
+        element: <Level07 />
+      },
+     {
+        path: "/gelo",
         element: <Final />
-      }
+      }, 
     ]
   },
 
