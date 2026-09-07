@@ -5,8 +5,8 @@ const Level10 = () => {
     <div>
         <h1>Level10 - 20+235+291</h1>
         <div className="container">
-            <p>Assunção - PR</p>
-            <p>NL - Canadá</p>
+            <p>25° 16′ S, 57° 38′ O</p>
+            <p>53° 13' 35" N, 57° 39' 37" W</p>
             <p>Lago Khövsgöl</p>
             <p>WA - Austrália</p>
             <p className="secondary">Nativos</p>
