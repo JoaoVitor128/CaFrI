@@ -1,0 +1,16 @@
+.App{
+    padding: 20px;
+}
+
+
+.level05{
+  width: 500px;
+  height: 500px;
+  background-color:#532320;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.level05 p{
+  color: #532320;
+}
