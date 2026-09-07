@@ -10,6 +10,7 @@ import Level02 from './Routes/Level02.jsx'
 import Level03 from './Routes/Level03.jsx'
 import Level04 from './Routes/Level04.jsx'
 import Level05 from './Routes/Level05.jsx'
+import Level06 from './Routes/Level06.jsx'
 
 import Final from './Routes/final.jsx' 
 
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       },
       {
         path: "/cucuta",
+        element: <Level06/>
+      },
+      {
+        path: "/alienista",
         element: <Final/>
       }
     ]
