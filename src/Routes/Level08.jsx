@@ -1,9 +1,11 @@
 import React from 'react'
+import Tips from '../Components/Tips'
 
 const Level08 = () => {
     return (
         <div>
             <h1>Level 08 - Inversão Absoluta</h1>
+            <Tips text="Temos quase todas as letras, menos..." />
             <div className="container">
                 <p className="secondary">Se fosse verdade estariamos [...]</p>
                 <p>17-26-10-6-22</p>
