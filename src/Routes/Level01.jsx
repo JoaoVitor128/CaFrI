@@ -6,8 +6,6 @@ const Level01 = () => {
 
   return (
     <div>
-      <h1>Level 01 - Criação de</h1>
-      <Tips text="Principal feito do indivíduo"/>
       <div className="container">
         <p>... .- -. - --- ... / -.. ..- -- --- -. -</p>
         <p className='secondary'>A resposta deve ser colocar no link após a "/", por exeplo se você acha que a resposta é "Manhã Boa", você vai no LINK da página e escreva https://cafri.netilify.app/manha-boa</p>

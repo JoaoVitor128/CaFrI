@@ -7,7 +7,7 @@ const Level03 = () => {
   return (
     <div>
       <h1>Level 03 - Fonte</h1>
-      <Tips text="Alternância preto/branco" />
+      <Tips text="Inspecione-a" />
       <div className="container">
         <img src={level03} alt="" className='level03' />
         <p className="secondary">O que a por trás do CaFrI?</p>
