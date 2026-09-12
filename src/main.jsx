@@ -18,6 +18,7 @@ import Level07 from './Routes/Level07.jsx'
 import Level08 from './Routes/Level08.jsx'
 import Level09 from './Routes/Level09.jsx'
 import Level10 from './Routes/Level10.jsx'
+import Level11 from './Routes/Level11.jsx'
 
 const router = createBrowserRouter([
   {
@@ -67,6 +68,10 @@ const router = createBrowserRouter([
       },
       {
         path: "asch-schamaliyya",
+        element: <Level11/>
+      },
+      {
+        path:"odipuc",
         element: <Final/>
       }
     ]
