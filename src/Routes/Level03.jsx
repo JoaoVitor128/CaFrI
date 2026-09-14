@@ -19,14 +19,14 @@ const Level03 = () => {
           <button onClick={play}>Tocar</button>
         </div>
         <p className="secondary">
-          1x2
-          2x6
-          3x6
-          1x6
-          1x2
-          3x5
-          3x4
-          1x2
+          1x2<br />
+          2x6<br />
+          3x6<br />
+          1x6<br />
+          1x2<br />
+          3x5<br />
+          3x4<br />
+          1x2<br />
         </p>
       </div>
     </div>
