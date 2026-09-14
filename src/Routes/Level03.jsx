@@ -1,7 +1,6 @@
 import { useRef } from 'react';
 import Tips from '../Components/Tips'
 
-import level03 from "../assets/level03.png"
 import nokia3310 from "../assets/nokia3310.mp3"
 
 const Level03 = () => {
