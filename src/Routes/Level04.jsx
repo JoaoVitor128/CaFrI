@@ -4,8 +4,6 @@ import Tips from '../Components/Tips'
 const Level04 = () => {
   return (
     <div>
-      <h1>Level 04 - YAWHE</h1>
-      <Tips text="Contagem de caractéres na NVT" />
       <div className="container">
         <h2>Uma versão, nova e transformadora</h2>
         <p className="secondary">האיגרת הראשונה ליוחנן YAWHE é Amor 3:17</p>

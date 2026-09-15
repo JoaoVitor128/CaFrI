@@ -12,8 +12,7 @@ const Level03 = () => {
 
   return (
     <div>
-      <h1>Level 03 - Tens uma nova mensagem</h1>
-      <Tips text="Deve ser horrível mandar mensagem assim" />
+
       <div className="container">
         <div>
           <button onClick={play}>Tocar</button>

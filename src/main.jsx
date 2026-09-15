@@ -21,6 +21,7 @@ import Level10 from './Routes/Level10.jsx'
 import Level11 from './Routes/Level11.jsx'
 import ManhaBoa from './Routes/ManhaBoa.jsx'
 import Level12 from './Routes/Level12.jsx'
+import Winners from './Routes/Winners.jsx'
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,12 @@ const router = createBrowserRouter([
         path: "/manha-boa",
         element: <ManhaBoa />
       },
+      {
+        path: "/guerreiros",
+        element: <Winners/>
+      },
+
+
       {
         path: "/aviao",
         element: <Level02 />
