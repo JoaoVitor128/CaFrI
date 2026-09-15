@@ -2,7 +2,8 @@ export const levels = [
     {
         path:"/",
         title:"Criação de",
-        tip: "Maior feito do indivíduo"
+        tip: "Maior feito do indivíduo",
+        
     },
     {
         path:"/aviao",

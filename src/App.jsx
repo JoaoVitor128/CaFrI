@@ -18,11 +18,15 @@ function App() {
 
   return (
     <div className='App'>
-      <h1>Level 0{levels.indexOf(currentLevel) + 1} - {currentLevel.title} </h1>
-      <Tips text={currentLevel.tip}/>
+      {path != "/guerreiros" && path != "/final" && path != "/manha-boa" &&
+        <div>
+          <h1>Level 0{levels.indexOf(currentLevel) + 1} - {currentLevel.title} </h1>
+          <Tips text={currentLevel.tip} />
+        </div>
+      }
 
       <Outlet />
-      
+
       {path == "/guerreiros" && <Link to={"/"}><button>Voltar</button></Link>}
       {path != "/guerreiros" && <Link to={"/guerreiros"}><button>Lista de Guerreiros</button></Link>}
     </div>
